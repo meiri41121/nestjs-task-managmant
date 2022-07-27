@@ -1,6 +1,6 @@
 import { User } from 'src/auth/user.entity';
 // eslint-disable-next-line prettier/prettier
-import { BaseEntity, Column, Entity, ManyToMany, ManyToOne, PrimaryGeneratedColumn } from 'typeorm';
+import { BaseEntity, Column, Entity, ManyToOne, PrimaryGeneratedColumn } from 'typeorm';
 import { TaskStatus } from './task-status.enum';
 
 @Entity()
